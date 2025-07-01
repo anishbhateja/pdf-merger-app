@@ -4,7 +4,7 @@ from PyPDF2 import PdfMerger
 import tempfile
 import os
 
-st.title("📄 Merge PDFs & Images to Single PDF 🐻‍❄️ Edition: Anish Bhateja")
+st.title("📄 Cooking Up One Tasty PDF 🐻‍❄️ — Chef Anish")
 
 uploaded_files = st.file_uploader("Upload PDFs or Images", type=["pdf", "png", "jpg", "jpeg"], accept_multiple_files=True)
 
